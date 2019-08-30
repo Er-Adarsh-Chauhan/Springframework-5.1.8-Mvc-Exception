@@ -21,6 +21,8 @@
     * NullPointerException
     * ArrayIndexOutOfBoundsException
     * ArithmeticException
+`Note : To know more about the Exception in Java go to link given below :`
+https://www.geeksforgeeks.org/exceptions-in-java/
 
 ## What is Spring Exception Handling
 Having a well defined exception handling approach is a huge plus point for any web application framework, that being said Spring MVC framework delivers well when it comes to exception and error handling in our web applications.
