@@ -33,14 +33,25 @@ These exception handler methods are just like other request handler methods and 
 If there are multiple exception handler methods defined, then handler method that is closest to the Exception class is used. For example, if we have two handler methods defined for IOException and Exception and our request handler method throws IOException, then handler method for IOException will get executed.
 
 # Directory Structure of this Spring Mvc Web Application is : 
+<pre>
 Springframework-Mvc-Exception
 |-----Java Resources
-         |----src/mai/java
-            |-----com.adarshonjava.emp.bean
-               |----Employee.java
-            |-----com.adarshonjava.emp.controller
-               |--- EmployeeController.java
-            |-----com.adarshonjava.emp.exception
-               |--- EmployeeException.java
-            
-
+|         |----src/main/java
+|            |-----com.adarshonjava.emp.bean
+|              |----Employee.java
+|           |-----com.adarshonjava.emp.controller
+|              |--- EmployeeController.java
+|            |-----com.adarshonjava.emp.exception
+|               |--- EmployeeException.java
+| 
+|-----WebContent
+        |---WEB-INF
+             |---web.xml
+             |---config
+                   |----sdnext-servlet.xml
+             |---views
+                   |----employeeDetail.jsp
+                   |----employeeForm.jsp
+                   |----error.jsp
+                   |----ExceptionPage.jsp
+</pre>
