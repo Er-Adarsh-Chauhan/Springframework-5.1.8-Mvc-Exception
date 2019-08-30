@@ -37,7 +37,9 @@ These exception handler methods are just like other request handler methods and 
 
 If there are multiple exception handler methods defined, then handler method that is closest to the Exception class is used. For example, if we have two handler methods defined for IOException and Exception and our request handler method throws IOException, then handler method for IOException will get executed.
 
-`Note : Click on link to refer Spring Mvc Based Exception Web Application :` https://github.com/Er-Adarsh-Chauhan/Springframework-5.1.8-Mvc-Exception
+`Note : Click on link to refer Spring Mvc Based Exception Web Application :` 
+
+https://github.com/Er-Adarsh-Chauhan/Springframework-5.1.8-Mvc-Exception
 
 # Directory Structure of this Spring Mvc Web Application is : 
 <pre>
@@ -85,7 +87,13 @@ Springframework-Mvc-Exception
   * if user gives other than numeric character then it shows an error.
   * if user enter less than 5 character in Name field then it shows an error.
   * if user enter less than 10 character in Age field then it shows an error.
+  
   `Note : if Form inputs are filled with correct values then it will show the output. `
   
+  
+  
+  # Some Other Project Using Spring MVC Based Architecture 
+  https://github.com/Er-Adarsh-Chauhan/LocaleBasedSpringWebApplication
+  https://github.com/Er-Adarsh-Chauhan/SpringMVCCRUDSimple
   
 
