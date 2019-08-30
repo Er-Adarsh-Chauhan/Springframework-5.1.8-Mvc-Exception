@@ -13,16 +13,14 @@
     * OutOfMemoryError
     * StackOverflowError
     * LinkageError
-    * System errors:
-
-FileNotFoundException
-IOException
-SocketTimeoutException
-
-Programming errors:
-NullPointerException
-ArrayIndexOutOfBoundsException
-ArithmeticException
+* System errors:
+    * FileNotFoundException
+    * IOException
+    * SocketTimeoutException
+       * Programming errors:
+    * NullPointerException
+    * ArrayIndexOutOfBoundsException
+    * ArithmeticException
 
 ## What is Spring Exception Handling
 Having a well defined exception handling approach is a huge plus point for any web application framework, that being said Spring MVC framework delivers well when it comes to exception and error handling in our web applications.
