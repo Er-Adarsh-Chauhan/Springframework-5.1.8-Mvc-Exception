@@ -4,7 +4,7 @@
 * Exceptions are events that occur during the execution of programs that disrupt the normal flow of instructions (e.g. divide by zero,  
   array access out of bound, etc.). 
 * In Java, an exception is an object that wraps an error event that occurred within a method and contains:
-   ** Information about the error including its type The state of the program when the error occurred Optionally, other custom information
+   * Information about the error including its type The state of the program when the error occurred Optionally, other custom information
 Exception objects can be thrown and caught.
 Exceptions are used to indicate many different types of error conditions.
 
