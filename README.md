@@ -9,13 +9,11 @@
    * Optionally, other custom information
 * Exception objects can be thrown and caught.
 ### Exceptions are used to indicate many different types of error conditions.
-
-JVM Errors:
-
-OutOfMemoryError
-StackOverflowError
-LinkageError
-System errors:
+* JVM Errors:
+    * OutOfMemoryError
+    * StackOverflowError
+    * LinkageError
+    * System errors:
 
 FileNotFoundException
 IOException
