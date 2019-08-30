@@ -32,6 +32,10 @@ These exception handler methods are just like other request handler methods and 
 
 If there are multiple exception handler methods defined, then handler method that is closest to the Exception class is used. For example, if we have two handler methods defined for IOException and Exception and our request handler method throws IOException, then handler method for IOException will get executed.
 
+`Note : Go to below link to refer Spring Mvc Based Exception Web Application
+  
+`
+
 # Directory Structure of this Spring Mvc Web Application is : 
 <pre>
 Springframework-Mvc-Exception
@@ -55,3 +59,6 @@ Springframework-Mvc-Exception
                    |----error.jsp
                    |----ExceptionPage.jsp
 </pre>
+
+
+
