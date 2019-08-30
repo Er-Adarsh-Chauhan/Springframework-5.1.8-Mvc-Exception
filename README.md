@@ -31,3 +31,16 @@ Controller Based – We can define exception handler methods in our controller c
 These exception handler methods are just like other request handler methods and we can build error response and respond with different error page. We can also send JSON error response, that we will look later on in our example.
 
 If there are multiple exception handler methods defined, then handler method that is closest to the Exception class is used. For example, if we have two handler methods defined for IOException and Exception and our request handler method throws IOException, then handler method for IOException will get executed.
+
+# Directory Structure of this Spring Mvc Web Application is : 
+Springframework-Mvc-Exception
+|-----Java Resources
+         |----src/mai/java
+            |-----com.adarshonjava.emp.bean
+               |----Employee.java
+            |-----com.adarshonjava.emp.controller
+               |--- EmployeeController.java
+            |-----com.adarshonjava.emp.exception
+               |--- EmployeeException.java
+            
+
